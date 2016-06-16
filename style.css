@@ -1,0 +1,22 @@
+ .profilepic {
+  margin: auto;
+  display: block;
+    border-radius: 50%;
+    padding: 10px;
+}
+h1 {
+  text-align: center;
+}
+.blurb{
+  text-align: center;
+  background-color: grey;
+}
+.projectimage {
+  display: block;
+  margin:auto;
+  width: 60%;
+  height:60%;
+}
+.project1Descript{
+  text-align: center;
+}
