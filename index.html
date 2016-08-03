@@ -2,36 +2,27 @@
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
     <title>My Portfolio</title>
-
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
-
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
 </head>
-
 <body>
-
     <!-- Navigation -->
     <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
     <nav id="sidebar-wrapper">
@@ -41,79 +32,26 @@
                 <a href="#top" onclick=$("#menu-close").click();>Start Bootstrap</a>
             </li>
             <li>
-                <a href="#top" onclick=$("#menu-close").click();>Home</a>
+                <a href="#top" onclick=$("#menu-close").click();>Back To Top</a>
             </li>
             <li>
-                <a href="#about" onclick=$("#menu-close").click();>About</a>
-            </li>
-            <li>
-                <a href="#services" onclick=$("#menu-close").click();>Services</a>
+                <a href="#about" onclick=$("#menu-close").click();>Resume</a>
             </li>
             <li>
                 <a href="#portfolio" onclick=$("#menu-close").click();>Portfolio</a>
             </li>
             <li>
-                <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
+                <a href="#contact" onclick=$("#menu-close").click();>Find Me</a>
             </li>
         </ul>
     </nav>
-
-    <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
             <h1>Welcome To Chandlers Place</h1>
             <br>
-            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
         </div>
     </header>
-
-
-    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-
-    <!-- Callout -->
-    <aside class="callout">
-        <div class="text-vertical-center">
-            <h1>Some of the work ive done</h1>
-        </div>
-    </aside>
-
-    <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Projects</h2>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="project1.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="http://cook-it.herokuapp.com">
-                                    <img class="img-portfolio img-responsive" src="cookit.png">
-                                </a>
-                            </div>
-                        </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.row (nested) -->
-
-                </div>
-                <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
-
-    <!-- Call to Action -->
-    <aside class="call-to-action bg-primary">
+    <aside class="call-to-action bg-primary" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -123,24 +61,48 @@
             </div>
         </div>
     </aside>
-
-    <!-- Map -->
-
-    <!-- Footer -->
-    <footer>
+    <aside class="callout">
+        <div class="text-vertical-center">
+            <h1>Some of the work ive done</h1>
+        </div>
+    </aside>
+    <section id="portfolio" class="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Start Bootstrap</strong>
+                    <h2>Projects</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6 vcenter">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="project1.jpg">
+                                </a>
+                                <h3>This is one of my first attempts at creating a game using the unity game engine, I am fairly happy with the outcome considering the time I spent on it. I plan on implementing a highscore system</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-6 vcenter">
+                            <div class="portfolio-item">
+                                <a href="http://cook-it.herokuapp.com">
+                                    <img class="img-portfolio img-responsive" src="cookit.png">
+                                </a>
+                                <h3>This is a single page web app using react, It was created by me and three other people. We have future plans to implement a user login system</h3>
+                            </div>
+                        </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>Find me anywhere that a web developer should be located at</strong>
                     </h4>
-                    <p>3481 Melrose Place
-                        <br>Beverly Hills, CA 90210</p>
-                    <ul class="list-unstyled">
-                        <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">name@example.com</a>
-                        </li>
-                    </ul>
-                    <br>
                     <ul class="list-inline">
                         <li>
                             <a href="https://github.com/chandlerbasso"><i class="fa fa-github fa-fw fa-4x"></i></a>
@@ -148,10 +110,8 @@
                         <li>
                             <a href="https://www.linkedin.com/in/chandlerbasso?trk=nav_responsive_tab_profile_pic"><i class="fa fa-linkedin fa-fw fa-4x"></i></a>
                         </li>
-
                     </ul>
                     <hr class="small">
-                    <p class="text-muted">Copyright &copy; Your Website 2014</p>
                 </div>
             </div>
         </div>
