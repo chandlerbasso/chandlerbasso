@@ -20,3 +20,30 @@ h1 {
 .project1Descript{
   text-align: center;
 }
+.linkedin{
+  width: 48px;
+  height: auto;
+}
+.github {
+  width: 48px;
+  height: auto;
+}
+footer{
+  display: inline-block;
+  height: 300px;
+  width: 100%;
+  background-color: grey;
+
+}
+#link{
+  width: 60%;
+}
+.desc{
+  text-align: center;
+}
+.headfoot{
+  text-align: center;
+}
+.foot{
+text-align: center;
+}
